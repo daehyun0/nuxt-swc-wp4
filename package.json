@@ -12,9 +12,9 @@
     "build": "siroc build",
     "dev": "nuxt dev test/fixture",
     "lint": "eslint --ext .ts .",
-    "prepare": "yarn build",
-    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
-    "test": "yarn lint"
+    "prepare": "npm build",
+    "release": "npm test && standard-version && git push --follow-tags && npm publish",
+    "test": "npm lint"
   },
   "dependencies": {
     "@swc/core": "^1.2.58",
