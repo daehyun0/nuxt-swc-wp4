@@ -19,7 +19,7 @@
   "dependencies": {
     "@swc/core": "^1.2.58",
     "defu": "^5.0.0",
-    "swc-loader": "^0.1.14"
+    "swc-loader": "0.1.15"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.8",
